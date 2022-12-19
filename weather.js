@@ -83,7 +83,7 @@ function searchCity(find) {
             addCity();
         }
         cityP.innerText = data['name'];
-        tempP.innerText = data['main']['temp']+' °F';
+        tempP.innerText = Math.round(data['main']['temp'])+'°';//+' °F';
         weatherP.innerText = data['weather'][0]['main'];
     });
 }
