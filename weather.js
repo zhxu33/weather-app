@@ -142,5 +142,3 @@ function render() { //reset list of cities
         document.getElementById('city-list').appendChild(element)
     });
 }
-
-console.log("Hello")
