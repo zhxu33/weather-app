@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather Web</title>
+        <link rel="stylesheet" href = "styles/weather.css">    
+    </head>
+    <body>
+        <div id="city-list" class = "city-list"></div>
+        <div class = "weather-preview">
+            <input id = "search-city" class = "search-bar" type=""text placeholder="Search City">
+            <button onclick= "searchCity()" class = "search-button"> &#128269; </button>
+            <img class = "thumbnail" src="thumbnails/thumbnail.jpg">
+            <p class = "city" id = "city">
+                 Davis
+            </p>
+            <p class = "temp" id = "temp">
+                3.14
+            </p>
+            <p id = "weather" class = "weather">
+                Clear
+            </p>
+        </div>
+        <script src="weather.js"></script>
+    </body>
+
+</html>
+
+
