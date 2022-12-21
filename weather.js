@@ -86,6 +86,7 @@ function starCity(event) {
     const cityName = parent.getElementsByClassName("sample-city")[0];
     removeCity(cityName.textContent);
     cityList.unshift(cityName.textContent);
+    saveCities();
     render();
 }
 
