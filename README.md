@@ -1,4 +1,4 @@
-# WeatherApp
+# Weather App
 A responsive web application that allow users to search and save city weather data.
 
 Demo:
