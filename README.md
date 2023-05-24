@@ -1,5 +1,5 @@
 # Weather App
-A web application that allow users to search and save city weather data .
+A web application that allow users to search and save city weather data.
 
 Demo:
 https://zhxu33.github.io/WeatherApp/
