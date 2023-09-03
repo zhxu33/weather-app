@@ -1,4 +1,3 @@
-//model
 let cityList;
 const savedCityList = JSON.parse(localStorage.getItem("cityList"));
 if (Array.isArray(savedCityList)) {
@@ -8,17 +7,13 @@ if (Array.isArray(savedCityList)) {
 }
 render();
 
-// Creates a city
 function createCity(name) {
   cityList.push(name);
   saveCities();
 }
 
-//Delete a city
 function removeCity(name) {
   cityList = cityList.filter(function (city) {
-    //if id is equal city's return false and delete
-    //return true otherwise and do nothing
     return !(city == name);
   });
   saveCities();
@@ -28,7 +23,6 @@ function saveCities() {
   localStorage.setItem("cityList", JSON.stringify(cityList));
 }
 
-//controller
 function addCity(cityText) {
   if (cityList.includes(cityText) == false) {
     createCity(cityText);
@@ -109,9 +103,7 @@ function clearHistory() {
   render();
 }
 
-// View
 function render() {
-  //reset list of cities
   const list = document.getElementById("city-list");
   const sample = document.getElementById("samp");
   while (list.lastElementChild) {
