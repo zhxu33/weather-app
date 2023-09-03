@@ -67,6 +67,23 @@ html {
   color: rgb(255, 255, 255, 0.7);
 }
 
+.search-button {
+  margin-top: 11%;
+  margin-left: 1%;
+  vertical-align: top;
+  display: inline;
+  width: 10%;
+  height: 10%;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  left: 10%;
+  font-size: 1.25vw;
+  color: rgb(255, 255, 255, 0.7);
+}
+
 ::placeholder {
   color: rgb(255, 255, 255, 0.7);
 }
