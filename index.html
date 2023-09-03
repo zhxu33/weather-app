@@ -1,43 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Weather App</title>
-        <link rel="stylesheet" href = "css/style.css">    
-    </head>
-    <body>
-        <div id="city-list">
-            <p id = "title">Weather</p>
-            <button id = "clear-button">Clear</button>
-            <div id = "samp">
-                <p class = "sample-city">San Francisco</p>
-                <p class = "sample-temp">40°</p>
-                <p class = "sample-weather">Cloudy</p>
-                <button class = "sample-delete">-</button>
-                <button class = "sample-star">✰</button>
-                <button class = "sample-view"></button>
-            </div>
-        </div>
-        <div class = "weather-preview">
-            <div id ="search-bar">
-                <button onclick= "searchCity()" class = "search-button"> &#128269; </button>
-                <input id = "search-city" type=""text placeholder="Search for a city">
-            </div>
-            <p id = "city">
-                 San Francisco
-            </p>
-            <p id = "temp">
-                40°
-            </p>
-            <p id = "weather">
-                Mostly Cloudy
-            </p>
-            <p id = "tempstat">
-                L:34° H:51°
-            </p>
-        </div>
-        <script src="weather.js"></script>
-    </body>
-
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="city-list">
+      <p id="title">Weather</p>
+      <button id="clear-button">Clear</button>
+      <div id="samp">
+        <p class="sample-city">San Francisco</p>
+        <p class="sample-temp">40°</p>
+        <p class="sample-weather">Cloudy</p>
+        <button class="sample-delete">-</button>
+        <button class="sample-star">✰</button>
+        <button class="sample-view"></button>
+      </div>
+    </div>
+    <div class="weather-preview">
+      <div id="search-bar">
+        <button onclick="searchCity()" class="search-button">&#128269;</button>
+        <input id="search-city" type="" text placeholder="Search for a city" />
+      </div>
+      <p id="city">San Francisco</p>
+      <p id="temp">40°</p>
+      <p id="weather">Mostly Cloudy</p>
+      <p id="tempstat">L:34° H:51°</p>
+    </div>
+    <script src="weather.js"></script>
+  </body>
 </html>
-
-
